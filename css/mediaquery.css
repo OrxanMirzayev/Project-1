@@ -1,0 +1,32 @@
+@media (max-width: 450px) {
+  .logo {
+    margin-left: 18px;
+  }
+  .menu-open {
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .menu-open {
+    display: block;
+  }
+
+  header .container nav.header-menu {
+    display: none;
+  }
+
+  header .container nav.mobile-header-menu {
+    display: block;
+    float: right;
+    height: 0px;
+  }
+
+  header .container nav.mobile-header-menu ul {
+    display: none;
+  }
+
+  header .container nav.header-menu ul li {
+    margin-left: 10px;
+  }
+}
